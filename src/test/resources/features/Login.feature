@@ -1,3 +1,7 @@
+@login
 Feature:Logging in
+
   Scenario: Login
-    Given I Login as user
+
+    Given I login as user
+    Then I should be on the activity stream
