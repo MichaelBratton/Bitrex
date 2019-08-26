@@ -27,8 +27,6 @@ public class LoginPage {
         password.sendKeys(passwordstr);
         submit.click();
 
-        WebDriverWait wait = new WebDriverWait(Driver.get(), 5);
-        wait.until(ExpectedConditions.urlContains("stream"));
     }
 
 }

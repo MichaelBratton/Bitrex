@@ -12,12 +12,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class BrowserUtils {
-    public static void waitForUIOverlay(){
-        WebDriverWait wait = new WebDriverWait(Driver.get(), 5);
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.loader-mask.shown")));
 
-
-    }
 
     /*
      * switches to new window by the exact title

@@ -18,7 +18,7 @@ public class LoginSteps {
         String username = ConfigurationReader.get("username");
         String password = ConfigurationReader.get("password");
         loginPage.login(username, password);
-        Thread.sleep(5000);
+
 
     }
 
